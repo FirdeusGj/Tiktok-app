@@ -3,7 +3,7 @@ import "./Nav.css";
 
 export default function Nav() {
   return (
-    <div>
+    <div className="nav__mainSection">
       <div className="nav__section">
         <section>
           <img
@@ -23,7 +23,7 @@ export default function Nav() {
           </div>
         </section>
         <section>
-          <button>Upload</button>
+          <button className="uploadButton">Upload</button>
           <button>Messages</button>
           <button>Inbox</button>
           <button>Profile</button>

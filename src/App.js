@@ -1,11 +1,13 @@
 import "./index.css";
+import Body from "./pages/Body";
 import Nav from "./pages/Nav";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <header className="App-header">gg</header>
+      <Body />
+      <header className="App-header"></header>
     </div>
   );
 }

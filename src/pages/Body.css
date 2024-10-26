@@ -1,0 +1,13 @@
+.body__section {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body__div {
+  display: flex;
+  height: 80vh;
+}
+.video {
+  max-height: auto;
+}
