@@ -14,19 +14,18 @@ export default function Body() {
       const response = await client.videos.search({
         orientation: "portrait",
         size: "medium",
-        query: "Ocean",
+        query: "Christianity",
         page: 1,
         per_page: 5,
         max_width: 1080,
       });
-
+      console.log(response);
       if (response.videos.length > 0) {
-        // Get the first video and find an HD file if available
         const videoFile =
           response.videos[1].video_files.find(
             (file) => file.quality === "hd"
           ) || response.videos[0].video_files[0];
-        setVideoUrl(videoFile.link); // Set the direct link to the video file
+        setVideoUrl(videoFile.link);
       }
     };
 

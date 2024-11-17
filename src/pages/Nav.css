@@ -56,3 +56,27 @@
   height: 30px;
   filter: brightness(5);
 }
+.uploadButton {
+  padding: 10px;
+  background: none;
+  color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 15px;
+  border: none;
+  font-weight: bold;
+  background: #252525;
+}
+.buttonSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.uploadButton > svg {
+  color: #e0e0e0;
+  fill: #e0e0e0;
+  height: 20px;
+}
